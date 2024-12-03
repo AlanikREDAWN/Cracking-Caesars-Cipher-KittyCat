@@ -36,7 +36,7 @@ input("\nPress enter to generate all of the key possibilities for your encrypted
 # Cycle through all possible keys
 for key in range(len(possibleCharacters)):
   shiftedMessage = ""
-  
+
   # Decrypt the message
   for character in initialMessage:
     if character in possibleCharacters:
@@ -50,7 +50,7 @@ for key in range(len(possibleCharacters)):
       shiftedMessage = shiftedMessage + character
 
   # Print the shifted message
-  print(shiftedMessage)
+  print("Key #%s: %s" % (key, shiftedMessage))
 
 # Closing message
 print("\nNow scroll through all of the key possibilities above and find the readable plaintext message.")
