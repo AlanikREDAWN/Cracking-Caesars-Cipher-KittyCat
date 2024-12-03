@@ -6,7 +6,6 @@ import string
 # Global variables
 initialPosition = 0
 shiftedPosition = 0
-shiftedMessage = ""
 lettersLower = string.ascii_lowercase
 lettersUpper = string.ascii_uppercase
 numbers = string.digits
@@ -36,6 +35,8 @@ input("\nPress enter to generate all of the key possibilities for your encrypted
 
 # Cycle through all possible keys
 for key in range(len(possibleCharacters)):
+  shiftedMessage = ""
+  
   # Decrypt the message
   for character in initialMessage:
     if character in possibleCharacters:
