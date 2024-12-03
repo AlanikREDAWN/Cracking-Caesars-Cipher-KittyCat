@@ -1,6 +1,3 @@
-#This program is the starter code for the Cracking Caesar's Cipher Project. 
-# This code is inspired by Cracking Codes with Python: An Introduction to Building and Breaking Ciphers by Al Sweigart https://www.nostarch.com/crackingcodes (BSD Licensed)
-
 import string
 
 # Global variables
