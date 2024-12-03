@@ -36,8 +36,6 @@ input("\nPress enter to generate all of the key possibilities for your encrypted
 
 # Cycle through all possible keys
 for key in range(len(possibleCharacters)):
-    
-
   # Decrypt the message
   for character in initialMessage:
     if character in possibleCharacters:
